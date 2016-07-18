@@ -1,9 +1,3 @@
-# Table of Contents
-1. [Getting and Cleaning Data](#id-section1)
-2. [Proposed Architecture](#id-section2)
-3. [Statistics](#id-section3)
-4. [Other Results](#id-section4)
-5. [Imporvements](#id-section5)
 
 
 
@@ -15,9 +9,15 @@ Deep learning techniques on MNIST dataset
 
 Also was submitted to [Kaggle Digit Recogonizer Competition](https://www.kaggle.com/c/digit-recognizer/)
 
+# Table of Contents
+1. [Getting and Cleaning Data](#getting-and-cleaning-data)
+2. [Proposed Architecture](#proposed-architecture)
+3. [Statistics](#statistics)
+4. [Other Results](#other-results)
+5. [Imporvements](#imporvements)
  
 
-<div id='id-section1'/>
+
 ## Getting and Cleaning Data
 The MNIST database of handwritten digits, available from this page, has a training set of 60,000 examples, and a test set of 10,000 examples.
 More information regarding the dataset [LeCun et. al.](http://yann.lecun.com/exdb/mnist/)
@@ -32,7 +32,7 @@ X : (60000L, 28L, 28L)
 y : (60000L, 10L)
 ```
 
-<div id='id-section2'/>
+
 ## Proposed Architecture
 
 Checkout my cookbooks on 1D Convolutions and GRU [here]() (private repo).
@@ -64,7 +64,7 @@ ________________________________________________________________________________
 ```
 
 
-<div id='id-section3'/>
+
 ## Statistics
 
 * ### **Training Phase**
@@ -102,7 +102,7 @@ Epoch 10/10
 
 
 
-* ### **Testing Phase**
+* **Testing Phase**
 **Accuracy on Testing Dataset 98.72**
  
 ```
@@ -112,7 +112,7 @@ Test Accuracy: 0.98719999999999998
 ```
 
 
-<div id='id-section4'/>
+
 ## Other Results
 
 1. **Fully Connected Vanilla Neural Network**
@@ -120,5 +120,5 @@ Test Accuracy: 0.98719999999999998
 2. **Long Short Term Memory Units**
         Accuracy on Testing Dataset 98.39%
 
-<div id='id-section5'/>
+
 ## Imporvements
