@@ -35,7 +35,7 @@ y : (60000L, 10L)
 
 ## Proposed Architecture
 
-Checkout my cookbooks on 1D Convolutions and GRU [here]() (private repo).
+
 
 Encoder - Decoder using Convolutions(as E) and Gated Recurrent Units(as D).
 
@@ -121,4 +121,3 @@ Test Accuracy: 0.98719999999999998
         Accuracy on Testing Dataset 98.39%
 
 
-## Imporvements
